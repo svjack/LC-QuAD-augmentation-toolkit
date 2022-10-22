@@ -42,7 +42,8 @@ kbqa-explore/linker_entities.pkl
 
 ### Toolkit Usage
 After environment installed, you can take a look at the snippet located in [single_step.py](https://github.com/svjack/LC-QuAD-augmentation-toolkit/blob/main/single_step.py).<br/>
-It takes en_sent and sparql_query as input parameters and give a output in the format of pandas dataframe. Let's look at some examples.
+It takes en_sent and sparql_query as input parameters and give a output in the format of pandas dataframe. Let's look at some examples that only
+sample 5 outputs (the total populations may  from 3 to 1000).
 
 <b>Example 1:</b>
 ```python
