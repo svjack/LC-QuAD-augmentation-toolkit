@@ -41,7 +41,7 @@ kbqa-explore/linker_entities.pkl
 ```
 
 ### Toolkit Usage
-After environment installed, you can take a look at the snippet located in [single_step.py]().<br/>
+After environment installed, you can take a look at the snippet located in [single_step.py](https://github.com/svjack/LC-QuAD-augmentation-toolkit/blob/main/single_step.py).<br/>
 It takes en_sent and sparql_query as input parameters and give a output in the format of pandas dataframe. Let's look at some examples.
 
 <b>Example 1:</b>
@@ -55,7 +55,7 @@ df = df.sample(n = 5).sort_values(by = "fuzz", ascending = False)
 df.apply(lambda x: x.to_dict(), axis = 1).values.tolist()
 ```
 This will output:
-```json
+```python
 [{'aug_en_sent': 'What is ChemSpider ID of tungsten trioxide ?',
   'aug_sparql_query': 'select distinct ?answer where { wd:Q417406 wdt:P661 ?answer}',
   'fuzz': 91.95402298850574},
@@ -84,7 +84,7 @@ df = df.sample(n = 5).sort_values(by = "fuzz", ascending = False)
 df.apply(lambda x: x.to_dict(), axis = 1).values.tolist()
 ```
 This will output:
-```json
+```python
 [{'aug_en_sent': 'Name the VfL Bochum team who compclass the least in tournaments.',
   'aug_sparql_query': 'select ?ent where { ?ent wdt:P31 wd:Q1478437 . ?ent wdt:P2257 ?obj . ?ent wdt:P2094 wd:Q105861. } ORDER BY ASC(?obj)LIMIT 5 ',
   'fuzz': 72.34042553191489},
@@ -164,6 +164,7 @@ Project Link:[https://github.com/svjack/LC-QuAD-augmentation-toolkit](https://gi
 -->
 * [DeepPavlov](https://github.com/deeppavlov/DeepPavlov)
 * [EasyNMT](https://github.com/UKPLab/EasyNMT)
+* [sentence-transformers](https://github.com/UKPLab/sentence-transformers)
 * [rdfhdt](https://www.rdfhdt.org/datasets/)
 * [rdflib](https://github.com/RDFLib/rdflib)
 * [DeepPavlov-Chinese-KBQA](https://github.com/svjack/DeepPavlov-Chinese-KBQA)
