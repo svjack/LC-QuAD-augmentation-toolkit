@@ -39,6 +39,8 @@ You can email me to get them. (ehangzhou@outlook.com or svjackbt@gmail.com)
 -->
 You can use below link to get them from Baidu Yun Drive. And placed them in the project root path.
 https://pan.baidu.com/s/1e66Lt6nisM3583dbIGsO5w?pwd=ntwz
+<br/>
+Remember use cat to merge wikidata.hdt.aa wikidata.hdt.ab wikidata.hdt.ac into wikidata.hdt to use it
 ```yml
 multi_lang_kb_dict.db
 kbqa-explore/wikidata.hdt
