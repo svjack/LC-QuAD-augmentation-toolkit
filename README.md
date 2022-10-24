@@ -33,7 +33,12 @@ property_info_df.pkl
 
 pid_tuple_on_s_dict.db
 ```
-And these three files are too big to upload. You can email me to get them. (ehangzhou@outlook.com or svjackbt@gmail.com)
+And these three files are too big to upload. 
+<!--
+You can email me to get them. (ehangzhou@outlook.com or svjackbt@gmail.com)
+-->
+You can use below link to get them from Baidu Yun Drive. And placed them in the project root path.
+https://pan.baidu.com/s/1e66Lt6nisM3583dbIGsO5w?pwd=ntwz
 ```yml
 multi_lang_kb_dict.db
 kbqa-explore/wikidata.hdt
