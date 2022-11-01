@@ -18,7 +18,7 @@ This project is target on take one record in LC-QuAD dataset as input.(i.e. one 
 Use these massive pairs and a translation toolkit, you can construct a KBQA system with the help of any sentence to query based Knowledge Base Engine. (as [DeepPavlov](https://github.com/deeppavlov/DeepPavlov)'s module do)
 
 ### Installation
-Refer to INSTALL.sh to install the environment, make sure that you can run the KBQA of the original DeepPavlov project.
+Refer to [INSTALL.sh](INSTALL.sh) to install the environment, make sure that you can run the KBQA of the original DeepPavlov project.
 The wikidata Knowledge Base hdt file can get from me or the [rdfhdt](https://www.rdfhdt.org/datasets/)
 
 Below files should be located in the root path of this project after clone from repository.
