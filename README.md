@@ -33,7 +33,7 @@ property_info_df.pkl
 
 pid_tuple_on_s_dict.db
 ```
-And these three files are too big to upload. 
+And below three files are too big to upload. 
 <!--
 You can email me to get them. (ehangzhou@outlook.com or svjackbt@gmail.com)
 -->
